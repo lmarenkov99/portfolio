@@ -1,0 +1,101 @@
+@media screen and (max-width: 1260px) {
+  .welcome__title {
+    font-size: 40px;
+  }
+
+  .welcome__skills-title,
+  .welcome__skills-name {
+    font-size: 20px;
+  }
+
+  .workWith__title,
+  .footer__title {
+    font-size: 25px;
+  }
+
+  .workWith__logo img {
+    height: 65px;
+  }
+
+  .myWork__card-title {
+    font-size: 30px;
+  }
+
+  .myWork__card-descr {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .workWith__logo img {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 862px) {
+  .workWith__logo {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    img {
+      margin-bottom: 1rem;
+      flex: 1 1 calc((100% / 7) - 2rem);
+      object-fit: contain;
+      object-position: left;
+
+      &+img {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .myWork {
+    margin-top: 4rem;
+  }
+
+  .welcome__skills {
+    margin-bottom: 4rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .myWork__card-title {
+    font-size: 25px;
+    bottom: 45px;
+  }
+
+  .myWork__card-descr {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .myWork__card {
+    max-width: 100%;
+  }
+
+  .workWith__title,
+  .footer__title {
+    font-size: 20px;
+  }
+
+  .footer,
+  .myWork__inner {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .welcome__title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .welcome__skills-title,
+    .welcome__skills-name {
+      font-size: 16px;
+    }
+}
