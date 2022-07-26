@@ -4,7 +4,8 @@
   }
 
   .welcome__skills-title,
-  .welcome__skills-name {
+  .welcome__skills-name,
+  .welcome__skills-exp {
     font-size: 20px;
   }
 
@@ -55,7 +56,7 @@
     margin-top: 4rem;
   }
 
-  .welcome__skills {
+  .welcome__skills-exp {
     margin-bottom: 4rem;
   }
 }
@@ -94,8 +95,10 @@
 }
 
 @media screen and (max-width: 400px) {
+
   .welcome__skills-title,
-    .welcome__skills-name {
-      font-size: 16px;
-    }
+  .welcome__skills-name,
+  .welcome__skills-exp {
+    font-size: 16px;
+  }
 }
